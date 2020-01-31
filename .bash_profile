@@ -25,7 +25,7 @@ alias ipi="echo -e 'Local IP is:';ipconfig getifaddr en0" # Local IP address
 # alias flush="sudo discoveryutil udnsflushcaches" # Flush DNS (Yosemite)
 alias flush="killall -HUP mDNSResponder" # Flush DNS (Mavericks, Mountain Lion, Lion, Mojave)
 
-alias ut="uptime" # Computer uptime
+alias ut="echo -e 'Uptime:';uptime" # Computer uptime
 alias wget='wget -c' # Resume wget by default
 alias getpass="openssl rand -base64 20" # Generate a random, 20-character password
 alias ping='ping -c 5' # Limit ping to 5 pings
