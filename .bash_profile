@@ -15,7 +15,7 @@ alias clear="clear;pwd"
 alias clr="clear"
 alias c="clear"
 alias cd..='cd ..;pwd' # Get rid of command not found
-alias ll="ls -al" # List all files in current directory in long list format
+alias ll="ls -lAh" # List all files in current directory in long list format, skip dots, no math for filesizes
 alias ldir="ls -al | grep ^d" # List all directories in current directory in long list format
 
 alias ip="echo -e 'External IP is:';curl ipinfo.io/ip" # External IP address
